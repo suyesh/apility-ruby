@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Suyesh Bhandari"]
   spec.email         = ["suyeshb@gmail.com"]
 
-  spec.summary       = "PLACEHOLDER ONLY: doesn't work."
-  spec.description   = "PLACEHOLDER ONLY: doesn't work."
+  spec.summary       = "Keep Moochers Out"
+  spec.description   = "Keep Moochers Out. Ruby interface for Moocher api, A Reputation API and Anti-Abuse Service."
   spec.homepage      = "https://github.com/suyesh/moocher"
   spec.license       = "MIT"
 
