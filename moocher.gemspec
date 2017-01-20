@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["suyeshb@gmail.com"]
 
   spec.summary       = "PLACEHOLDER ONLY: doesn't work."
-  spec.description   = "Ruby interface for Moochers.io.Reputation API and Anti-Abuse Service for developers."
+  spec.description   = "PLACEHOLDER ONLY: doesn't work."
   spec.homepage      = "https://github.com/suyesh/moocher"
   spec.license       = "MIT"
 
