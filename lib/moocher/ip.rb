@@ -4,10 +4,10 @@ require 'ipaddress'
 
 module Moocher
   module Ip
-    BASE_URL = 'https://api.moocher.io/badip/IPV4/'
     def ip_blacklisted?(ipaddress)
+      base_url = 'https://api.moocher.io/badip/IPV4/'
       if IPAddress.valid? ipaddress
-        response = HTTParty.get(BASE_URL + ipaddress)
+        response = HTTParty.get(base_url + ipaddress)
         response.success?
       else
         "IP Address doesn't seem to be valid."
