@@ -3,6 +3,19 @@
 This is Ruby interface for Moocher api, A Reputation API and Anti-Abuse Service. Still in developmental phase.
 Currently functioning features are listed below.
 
+###Installation
+
+Add the following to your Gemfile and bundle install
+
+```ruby
+gem 'moocher'
+```
+Or
+
+```shell
+gem install moocher
+```
+
 
 ## Check Blacklisted IP
 
