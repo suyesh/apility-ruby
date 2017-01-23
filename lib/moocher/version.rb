@@ -1,3 +1,3 @@
 module Moocher
-  VERSION = "0.1.1.2pre"
+  VERSION = "0.1.1.3pre"
 end

@@ -8,3 +8,4 @@ require "moocher/ip"
 require "moocher/passwords"
 
 include Moocher::Ip
+include Moocher::Domain
