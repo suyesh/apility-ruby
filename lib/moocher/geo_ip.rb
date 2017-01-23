@@ -4,24 +4,15 @@ require 'ipaddress'
 
 module Moocher
   module GeoIp
-    def geolocate_ip(ipaddress)
-      return "IP Address doesn't seem to be valid." if !(IPAddress.valid? ipaddress)
+    def geolocate_ip(ipaddress=nil)
       base_url = 'https://api.moocher.io/ip/'
-      response = HTTParty.get(base_url + ipaddress)
-      if response.success?
-        response.parsed_response
-      else
-        "Sorry No data was found."
-      end
-    end
-
-    def geolocate_my_ip
-      base_url = 'https://api.moocher.io/ip'
-      response = HTTParty.get(base_url)
-      if response.success?
-        response.parsed_response
-      else
-        "Sorry No data was found."
+      if ipaddress
+          return "IP Address doesn't seem to be valid." if !(IPAddress.valid? ipaddress)
+          response = HTTParty.get(base_url + ipaddress)
+          response.success? ? response.parsed_response : "Sorry No data was found."
+        else
+          response = HTTParty.get(base_url)
+          response.success? ? response.parsed_response : "Sorry No data was found."
       end
     end
   end
