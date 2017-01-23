@@ -14,7 +14,7 @@ module Moocher
           response = HTTParty.get("https://api.moocher.io/baddomain/#{domain_name}", headers: {"Content-Type": "application/json"})
           return response.parsed_response
         else
-          "'details:' can only be set to true."
+          "'details:' is by default set to false. You can only be set it to true."
         end
       end
     end
