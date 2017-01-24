@@ -1,5 +1,4 @@
 require "moocher/version"
-require "moocher/as"
 require "moocher/creditcards"
 require "moocher/domains"
 require "moocher/emails"
@@ -11,3 +10,4 @@ include Moocher::Ip
 include Moocher::Domain
 include Moocher::Email
 include Moocher::GeoIp
+include Moocher::Creditcard
