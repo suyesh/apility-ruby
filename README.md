@@ -80,7 +80,7 @@ moocher.geolocate_ip #With no IP passed, Will return Geolocation of Client's ip 
 
 ```
 
-## Check Blacklisted Credit Cards
+## Trace Credit Cards
 
 ```ruby
 moocher.creditcard "67068224343254254" #Blacklisted CC
