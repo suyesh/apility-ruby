@@ -15,7 +15,7 @@ Or
 ```shell
 gem install moocher
 ```
-## Require Moocher on top of your script
+## Instantiate Moocher::Resource 
 
 ```ruby
 require 'moocher'

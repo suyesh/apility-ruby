@@ -5,6 +5,7 @@ require "moocher/emails"
 require "moocher/geo_ip"
 require "moocher/ip"
 require "moocher/passwords"
+
 module Moocher
   class Resource
     include Moocher::Ip
