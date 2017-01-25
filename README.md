@@ -83,7 +83,7 @@ moocher.geolocate_ip #With no IP passed, Will return Geolocation of Client's ip 
 ## Trace Credit Cards
 
 ```ruby
-moocher.creditcard "67068224343254254" #Blacklisted CC
+moocher.creditcard "67068224343254254" 
 
 #=>"{\"scheme\": \"MASTERCARD\", \"bank_logo\": \"\", \"number_length\": \"\", \"bank_phone\": \"+49116116\", \"iin\": 670686, \"brand\": \"Maestro\", \"bank_url\": \"www.fidor.de\", \"country\": \"DE\", \"bank_name\": \"Fidor Bank AG\", \"prepaid\": \"\", \"bank_city\": \"M\\u00fcnchen\", \"type\": \"DEBIT\"}"
 ```
