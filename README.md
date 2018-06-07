@@ -1,6 +1,6 @@
-## Moocher - Keep Moochers Out
+## Apility - Keep Moochers Out
 
-This is Ruby interface for Moocher api, A Reputation API and Anti-Abuse Service. Still in developmental phase.
+This is Ruby interface for Moocher api, Currently renamed to [Apility](https://apility.io/docs/ruby-wrapper-interface/) , A Reputation API and Anti-Abuse Service. Still in developmental phase.
 Currently functioning features are listed below.
 
 ###Installation
