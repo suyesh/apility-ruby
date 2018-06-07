@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Ruby interface for Apility api"
   spec.description   = "Keep Moochers Out. Ruby interface for Apility api, A Reputation API and Anti-Abuse Service."
-  spec.homepage      = "https://github.com/suyesh/moocher"
+  spec.homepage      = "https://github.com/suyesh/apility-ruby"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
