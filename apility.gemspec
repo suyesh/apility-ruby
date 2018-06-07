@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'moocher/version'
+require 'apility/version'
 #require 'moocher/banner'
 
 Gem::Specification.new do |spec|
-  spec.name          = "moocher"
-  spec.version       = Moocher::VERSION
+  spec.name          = "apility"
+  spec.version       = Apility::VERSION
   spec.authors       = ["Suyesh Bhandari"]
   spec.email         = ["suyeshb@gmail.com"]
 
-  spec.summary       = "Keep Moochers Out"
-  spec.description   = "Keep Moochers Out. Ruby interface for Moocher api, A Reputation API and Anti-Abuse Service."
+  spec.summary       = "Ruby interface for Apility api"
+  spec.description   = "Keep Moochers Out. Ruby interface for Apility api, A Reputation API and Anti-Abuse Service."
   spec.homepage      = "https://github.com/suyesh/moocher"
   spec.license       = "MIT"
 

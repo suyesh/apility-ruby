@@ -8,19 +8,19 @@ Currently functioning features are listed below.
 Add the following to your Gemfile and bundle install
 
 ```ruby
-gem 'moocher'
+gem 'apility'
 ```
 Or
 
 ```shell
 gem install moocher
 ```
-## Instantiate Moocher::Resource 
+## Instantiate Moocher::Resource
 
 ```ruby
-require 'moocher'
+require 'apility'
 
-moocher = Moocher::Resource.new
+moocher = Apility::Resource.new
 
 ```
 

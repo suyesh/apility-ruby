@@ -2,10 +2,10 @@ require 'httparty'
 require 'ipaddress'
 
 
-module Moocher
+module Apility
   module GeoIp
     def geolocate_ip(ipaddress=nil)
-      base_url = 'https://api.moocher.io/ip/'
+      base_url = 'https://api.apility.net/ip/'
       if ipaddress
           return "IP Address doesn't seem to be valid." if !(IPAddress.valid? ipaddress)
           response = HTTParty.get(base_url + ipaddress)

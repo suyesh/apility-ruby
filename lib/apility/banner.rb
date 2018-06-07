@@ -1,4 +1,4 @@
-module Moocher
+module Apility
   class Banner
     def initialize(env = ENV)
       @env = env
